@@ -9,7 +9,7 @@ TranslationAI source code is provided under the [GPLv3 license](LICENSE). The tr
 TranslationAI can be installed from the [github repository](https://github.com/***/TranslationAI.git):
 
 ```sh
-git clone https://github.com/***/TranslationAI.git
+git clone https://github.com/rnasys/translationAI.git
 cd TranslationAI
 python setup.py install
 ```
