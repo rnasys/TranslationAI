@@ -26,7 +26,7 @@ conda install tensorflow
 TranslationAI can be run from the command line (e.g.):
 
 ```sh
-translationai -I seq.fa -t 0.5,0.5
+translationai -I translationai/examples/query_seq.fa -t 0.5,0.5
 ```
 
 Required parameters:
