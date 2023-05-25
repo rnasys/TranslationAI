@@ -39,8 +39,8 @@ Required parameters:
 ### Examples
 A sample input file and the corresponding output file can be found at `examples/query_seq.fa` and `examples/query_seq_predTIS_0.1.txt` & `examples/query_seq_predTTS_0.1.txt` & `examples/query_seq_predORFs_0.1_0.1.txt` respectively. 
 
-The header line format of input fasta file is: >chrN:int-int(+/-)(annotation)(int, int,).
-Example: >chr3:28283123-28361264(+)(CMC1)(241, 568,)
+The header line format of input fasta file is: `>chrN:int-int(+/-)(annotation)(int, int,)`.
+Example: `>chr3:28283123-28361264(+)(CMC1)(241, 568,)`
 
 In the file for predicted TISs (e.g. `examples/query_seq_predTIS_0.1.txt`), each line represents a sequence and contains the following information: the sequence identifier, the predicted TIS position, the corresponding score. The TIS position and score are separated by a comma character. If multiple TISs were predicted for a sequence, they are ranked by the predicted scores and separated by a tab character. The format of each line is as follows:
 `sequence_identifier	TIS_position_1,TIS_score_1   TIS_position_2,TIS_score_2   ...`
