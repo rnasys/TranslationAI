@@ -14,12 +14,16 @@ cd TranslationAI
 python setup.py install
 ```
 
-TranslationAI requires ```tensorflow>=1.2.0```, which is best installed separately via pip or conda (see the [TensorFlow](https://www.tensorflow.org/) website for other installation options):
+Ensure you have the following dependencies installed:
 
 ```sh
-pip install tensorflow
-# or
-conda install tensorflow
+python==3.9
+h5py==3.7.0
+keras==2.8.0
+python-dotenv==1.0.0
+numpy==1.23.5
+scikit-learn==1.3.2
+tensorflow==2.8.4
 ```
 
 ### Usage
